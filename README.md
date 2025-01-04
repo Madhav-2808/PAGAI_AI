@@ -19,6 +19,7 @@ Run the Streamlit Application: Navigate to the directory where chatbot.py is sav
 Interact with the Chatbot: Once the server starts, it will open a new browser tab where you can interact with the chatbot.
 
 **Features**
+
 1. Intuitive User Interface:
 - Clean and modern design.
 - Background media, color combinations, and frames enhance visual appeal.
@@ -39,16 +40,18 @@ Interact with the Chatbot: Once the server starts, it will open a new browser ta
 - Maintains the flow of conversation.
 - Exits gracefully upon encountering conversation-ending keywords (e.g., 'exit', 'quit').
 
-- 
+  
 **Technical Implementation**
+
 I've created the initial Python script for your Hiring Assistant chatbot. This includes UI design incorporates a video background and a structured chatbox for a seamless experience. Key components include:
 - HTML structure for layout and content.
 - CSS for styling and visual design elements.
 - JavaScript for chatbot functionality and dynamic interaction.
 - Bootstrap for responsive design.
 
-- 
+  
 **Script Details**
+
 The JavaScript implementation manages the chatbot's conversational flow, including:
 - Tracking the current step in the question flow.
 - Storing candidate responses in an object.
@@ -56,4 +59,5 @@ The JavaScript implementation manages the chatbot's conversational flow, includi
 - Handling user inputs and displaying responses.
 
 **Conclusion**
+
 The TalentScout Hiring Assistant chatbot UI provides a user-friendly and effective platform for candidate screening. Its design ensures clarity, responsiveness, and contextual interaction, enhancing the overall experience.
