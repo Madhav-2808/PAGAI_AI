@@ -9,16 +9,11 @@ Basic conversation flow handling, including a fallback response and a graceful e
 Steps to Run the Chatbot:
 Install Required Libraries: Open a terminal and install the required Python libraries:
 
-bash
-Copy code
-pip install streamlit openai
-Save the Code: Save the provided code in a file named app.py.
+**pip install streamlit openai**
 
-Set Up OpenAI API: Replace "your_openai_api_key" in the script with your actual OpenAI API key. Ensure you have access to the GPT-4 model.
+Save the Code: Save the provided code in a file named chatbot.py.
+Run the Streamlit Application: Navigate to the directory where chatbot.py is saved, then run:
 
-Run the Streamlit Application: Navigate to the directory where app.py is saved, then run:
+**streamlit run chatbot.py**
 
-bash
-Copy code
-streamlit run app.py
 Interact with the Chatbot: Once the server starts, it will open a new browser tab where you can interact with the chatbot.
